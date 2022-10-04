@@ -11,9 +11,13 @@ if (n1 <0)
 {
     Console.WriteLine($"\n{n1} é negativo");
 }
+else if (n1 == 0)
+{
+    Console.WriteLine($"\n{n1} é zero");
+}
 else
 {
-    Console.WriteLine($"\n{n1} é positivo");
+ Console.WriteLine($"\n{n1} é positivo");
 }
 Console.ForegroundColor = ConsoleColor.DarkYellow;
 Console.WriteLine("\nValeu por usar!");
